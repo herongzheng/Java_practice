@@ -12,6 +12,9 @@ public class JavaDocExample {
      */
     public static void main(String[] args) {
         JavaDocExample.des();
+        for (int i = 15; i <= 20; ++i) {
+            System.out.println(i);
+        }
         }
     /**
      * This print out something to the console
@@ -22,5 +25,6 @@ public class JavaDocExample {
     public static void des() {
         System.out.println("This is a JavaDoc practice example.");
     }
+
 
 }
